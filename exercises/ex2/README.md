@@ -1,42 +1,37 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 3 - Create an API (Service)
 
-In this exercise, we will create...
+After the creation of the persistence layer we will now make sure to expose the data via an APi. Let's get started.
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 2.1 Create a service
+You can now close the Date Model Editor if you like or you can switch directly back to the "Home" tab in the Application Studio.
 
-After completing these steps you will have created...
+You home tab displays the three entities in your model and you can easily navigate back to the Data Model Editor by clicking on of the Enities.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+Anyhow, click the "+" sign in the "Service" box to create a new service. A services provides the API that your project will expose for the UX to be consumed. We will create the Apps (UX) in an later excercise.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+The Serice Editor appears and will ask you to create a service. Fill in the details as follow and confirm with a click on "Create":
 
+![](/exercises/ex2/images/Service_01.png)
 
+Repeat this step to create also services for Customer and Order, so that your editor will look like this:
 
-## Exercise 2.2 Sub Exercise 2 Description
+![](/exercises/ex2/images/Service_02.png)
 
-After completing these steps you will have...
+Please note that the associations will be provided automatically, based on the definition in the data model.
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+As a final step for our service we will add the "Draft Editing" mode in the "Property Sheet".  
+First, click on the "HeroService" box, then click "Draft Editing" in the "Property Sheet" on the right hand side.  
+You can double check how it should look like in the screenshot above.
 
-```
+Close the Service Editor and navigate back to "Home" tab.
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+Note: If you accidently closed all the tabs you can find your "Home" tab by clicking on the "Project Explorer" icon on the left hand-side and click "Home" as depicted in this screenshot:  
+![](/exercises/ex2/images/Service_03.png)  
+You should have three entites in the Date Model and three services in the Service box.
+
+Next task will be to add some sample data so that we can test run our service.
 
 ## Summary
+You have now added an service to your project. Essentially, this service will expose your data model as an OData V4, RESTful API to your application.
 
-You've now ...
-
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3](../ex3/README.md)
