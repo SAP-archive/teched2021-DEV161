@@ -27,3 +27,8 @@ You can also just search "AppGvyer Preview" in your app store.
 1. When something does not work in the editor, but it should, you can try restarting the whole workspace. To do so, open this URL: https://lcapteched2021.eu10cf.applicationstudio.cloud.sap/index.html.  
 Here you see the so-called Dev Spaces of the Business application studio. Click on the "Stop" button. Once the Dev Space stopped, you can simply restart them. In order to go back to your Low-Code perspective you must go through the lobby - located here:  
 https://lcapteched2021-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/
+
+1. When the "Deploy" process throws an 404 error message (can be seen in the log file mentioned above), you can execute:
+```bash 
+npm install --global @ui5/cli
+```
