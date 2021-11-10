@@ -8,6 +8,9 @@ We will create an application with the new Low-Code perspective of the SAP Busin
 ## Overview
 
 This session introduces attendees to the new SAP Business Application Studio perspective for Low-Code developemnt. Also we will cover the basic app developement using SAP AppGyver.
+## The use case
+The use case we will cover in this sesssion is that we implement a solution for a new startup which enables customers to book superheroes for their birthday parties, team meetings or to support in your fight against the local neighbourhood villian. 
+Therefore, we need to provide a way to store our business data: available heroes to rent, customers and bookings. At the same time, we have different users we need to care about: the backoffice users, who maintain the list of heroes we have under contract as well as to get insights into the orders. On the other side, we have the customers who should use our mobile-first approach and should be enabled to browse our catalog of heroes as well as place orders. 
 
 ## Requirements
 
@@ -18,28 +21,43 @@ Note: After TechEd 2021, users can use the content in this repo on their product
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+The exercises are divided into to parts. In part one we use the new Low-Code perspecitive to create an API service including persistence on SAP BTP. This includes already some applications for the backoffice users using Fiori Elements. In part two, we will create a mobile app for the consumer of our service.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - Create a back-end application with Low-Code perspective in SAP Business Application Studio ](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+## PART 1
+- [Getting Started - Preparation Part 1](exercises/ex0/README.md)
+- [Exercise 1 - Create a back-end application with Low-Code perspective in SAP Business Application Studio ](exercises/ex1/README.md)
+- [Exercise 2 - Create an API (Service](exercises/ex2/README.md)
+- [Exercise 3 - Add some sample data](exercises/ex3/README.md)
+- [Exercise 4 - Add Your First App](exercises/ex4/README.md)
+- [Exercise 5 - Preparation for Mobile App and Deployment](exercises/ex5/README.md)
 
-  
-**OR** Link to the Tutorial Navigator for example...
+## PART 2
+- [Getting Started - Prepartion Part 2](exercises/exPrep/README.md)
+- [Exercise A - Create a new AppGyver Project](exercises/exA/README.md)
+- [Exercise B - Create a Data Source](exercises/exB/README.md)
+- [Exercise C - Create the Pages/UX](exercises/exC/README.md)
+- [Exercise D - Communicate with the Service API](exercises/exD/README.md)
+- [Exercise E - Further Improvements](exercises/exE/README.md)
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+Start the exercises [here](exercises/ex0/README.md).
 
 **IMPORTANT**
 
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+## Appendix
+
+Technologies and tools used in this course:
+* SAP BTP, cloud foundry environment 
+* SAP Business Application Studio
+* SAP AppGyver
+* SAP Launchpad service (HTML5 Repository)
+* SAP Workflow Management
+* SAP HANA
+* CLoud Application Programming Model (CAP)
+* SAP UI5 and Fiori Elements
 
 ## How to obtain support
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed.
 
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.

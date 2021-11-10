@@ -1,4 +1,4 @@
-# Exercise 5 - Preparation for mobile app and deployment
+# Exercise 5 - Preparation for Mobile App and Deployment
 
 In this exercise we will prepare our project to be used by a mobile Appgyver application and prepare for deployment. For this we will do two things: first, we will create a new service API explicitly for the mobile app and we will remove the security role checks for the sake of this session. Implementing end-to-end security with authentication and authorization would exeed the scope of our session. Secondly, we add CORS support for our services allowing AppGyvver to access the service at design time. Finally we hit the "Deploy" button.
 
@@ -69,7 +69,8 @@ It should look like this:
 
 ## Exercise 5.3 Deploy to "Production"
 
-Now that we have prepared everything. Click "Deploye" on the "Home" screen.
+Now that we have prepared everything. Click "Deploy" on the "Home" screen.
+Login with your progided
 That's it. That's all. Really.
 
 While we wait for the deplyoment to happen we will switch tools and start working with AppGyver in the next exercise.

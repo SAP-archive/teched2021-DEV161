@@ -17,7 +17,7 @@ TechEdLCAP0XX@XYZ where XYT are the three lettes you got earlier
 1. For the mobile preview app you should install  
 iOS: https://apps.apple.com/us/app/sap-appgyver-preview/id1585856868  
 Android: https://play.google.com/store/apps/details?id=com.sap.appgyver.preview.release  
-You can also just search "AppGvyer Preview" in your app store.
+You can also just search "AppGvyer Preview" in your app store and install it.
 
 
 ## General troubleshooting
