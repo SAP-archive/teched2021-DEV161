@@ -9,19 +9,19 @@ We will create an application with the new Low-Code perspective of the SAP Busin
 
 This session introduces attendees to the new SAP Business Application Studio perspective for Low-Code development. Also we will cover the basic app development using SAP AppGyver.
 ## The use case
-The use case we will cover in this sesssion is that we implement a solution for a new startup which enables customers to book superheroes for their birthday parties, team meetings or to support in your fight against the local neighbourhood villian. 
-Therefore, we need to provide a way to store our business data: available heroes to rent, customers and bookings. At the same time, we have different users we need to care about: the backoffice users, who maintain the list of heroes we have under contract as well as to get insights into the orders. On the other side, we have the customers who should use our mobile-first approach and should be enabled to browse our catalog of heroes as well as place orders. 
+The use case we cover in this sesssion is that we implement a solution for a new start-up which enables customers to book superheroes for their birthday parties, team meetings or for support in your fight against the local neighbourhood villian. 
+For this we need to provide a way to store our business data: available heroes to rent, customers and bookings. At the same time, we have different users we need to care about: the backoffice users, who maintain the list of heroes we have under contract as well as to get insights into the orders. On the other side , we have the customers who should use our mobile-first approach and should be enabled to browse our catalog of heroes as well as place orders. 
 
 ## Requirements
 
-Local requirements is to use preferably Google Chrome browser to access the SAP Business Application Studio and SAP AppGyver. You will get dedicated users for login to the development environment during the course.
-Other than a modern browser, ther is no local installation needed.
+Local requirement is to preferably use the Google Chrome browser to access the SAP Business Application Studio and SAP AppGyver. You will get dedicated users for login to the development environment during the course.
+Other than a modern browser, there is no local installation needed.
 
 Note: After TechEd 2021, users can use the content in this repo on their productive SAP BTP environment. 
 
 ## Exercises
 
-The exercises are divided into to parts. In part one we use the new Low-Code perspecitive to create an API service including persistence on SAP BTP. This includes already some applications for the backoffice users using Fiori Elements. In part two, we will create a mobile app for the consumer of our service.
+The exercises are divided into two parts. In part one we use the new Low-Code perspecitive in the Buesiness Application Studio to create an API service including persistence on SAP BTP. This includes already some applications for the backoffice users using Fiori Elements. In part two, we will create a mobile app for the consumer of our service.
 
 ## PART 1
 - [Getting Started - Preparation Part 1](exercises/ex0/README.md)
