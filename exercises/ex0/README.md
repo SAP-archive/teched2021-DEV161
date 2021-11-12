@@ -1,7 +1,7 @@
 # Preparation
 
 Here we start the excercise and see whether everything is ready to go.
-Please make sure you will have all the necessay prerequsistes listed below ready. If not, please raise your voice during the meeting so that we can assist you early in the session.
+Please make sure you have all the necessary prerequsistes listed below. If not, please raise your voice during the meeting so that we can assist you early in the session.
 
 
 ## Prerequisites
