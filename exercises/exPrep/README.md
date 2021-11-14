@@ -50,7 +50,7 @@ Again, type your username in the searchbar and perform a search. For subaccounts
 You see three apps being deployed:
 1. HeroManagement - This is the Fiori Elements app for our backoffice to manage the heroes we can rent out.
 2. OrderInsights - This is the app, which let's mangage the orders.
-3. Launchpad - Where does this come from? We did not create a Launchpad app. Actually, this one was created to "embrace" all the apps of our project and give them a bit of a context. In a real-world scenario you would probably decide to not use it and deploy the Hero and Order app to a centralized Launchpad. But her it comes in handy.
+3. Launchpad - Where does this come from? We did not create a Launchpad app. Actually, this one was created to "embrace" all the apps of our project and give them a bit of a context. In a real-world scenario you would probably decide to not use it and deploy the Hero and Order app to a centralized Launchpad. But here it comes in handy.
 
 Click on the Launchpad app. A new browse window will pop up. A launchpad with two tiles - our two apps.
 
