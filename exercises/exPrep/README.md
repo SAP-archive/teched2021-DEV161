@@ -68,9 +68,9 @@ If you want you can also check out the other "OrderInsights" app.
 
 ## Find our OData service
 
-Once you are done trying out your services, close the browser tab and click on "Overview" in the SAP BTP Cockpit to navigate to the subaccount overview.
+Once you are done trying out your apps, close the browser tab and click on "Overview" in the SAP BTP Cockpit to navigate to the subaccount overview.
 
-On the right hand you find a list of "Spaces", as we only have one - the "dev" space, click on the "dev-space row to navigate to our dev space.
+On the right hand you find a list of "Spaces", as we only have one - the "dev" space, click on the "dev" space row to navigate to our dev space.
 
 Use the searchbar on your right and search/filter for your user name. You will find a {USERNAME}-srv application, which should be in the state "Started".
 
@@ -83,7 +83,7 @@ What you see here is actually your deployed CAP service.
 
 Here you can manually start, stop or delete your service and add more service instances to scale your app. Anyhow, we don't need to do that at the moment, but:
 
-Copy the Application Routs to your notes/clipboard as we need it in the next exercise.
+Copy the Application Routes to your notes/clipboard as we need it in the next exercise.
 
 Once you have noted down the URL, click it to open our service:
 
@@ -91,7 +91,7 @@ Once you have noted down the URL, click it to open our service:
 
 This should be familiar to you - we have seen this using our preview feature in the AppStudio. Please note that there are no Web Applications right now as they have been deployed to the HTML5 repository separately.
 
-You can click on any service to test it out if you like. Please note that this time, the data you see is actually stored in the SAP HANA database running in the context of our subaccount. So all data changes will be persisted.
+You can click on the service "consumer"" and its entities to test it out if you like. Please note that if you try out "TechEdLCAP0XX" you will get an "Unauthorized", this is because it is secured with a role collection. Please note that this time, the data you see is actually stored in the SAP HANA database running in the context of our subaccount. So all data changes will be persisted.
 
 This conludes the validation and preparation phase.
 
