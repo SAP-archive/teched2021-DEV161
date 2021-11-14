@@ -69,7 +69,7 @@ It should look like this:
 ## Exercise 5.3 Deploy to "Production"
 
 Now that we have prepared everything, click "Deploy" on the "Home" screen.
-Login with your progided
+You are then asked to log on. Confirm the Cloud Foundry Endpoint (https://api.cf.eu10.hana.ondemand.com), then provide the email address and the password of you user ( TecEdLCAP001+0XX@gmail.com where xx is the number you got earlier ).
 That's it. That's all. Really.
 
 While we are waiting for the deplyoment to happen we will switch tools and start working with AppGyver in the next exercise.

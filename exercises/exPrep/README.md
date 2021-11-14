@@ -1,10 +1,10 @@
 # Getting Started - Perparation Part 2
 
-First deployment can take some time, but subsequent deployments usually work much faster. After the deployement has been done sucessfully, we need to verify it and collect some information as well as we need to make sure our users can access the deployed apps. 
+The first deployment can take some time ( a couple of minutes), but subsequent deployments usually work much faster. After the deployement has finished sucessfully, we need to verify it and collect some information as well as we need to make sure our users can access the deployed apps. 
 Therefore, we will perform some administrative tasks in this chapter.
 
 
-## Verify Deployment
+## Verify Deployment Amd Assign Authorizations
 
 Open a new browser tab andlogin to the following page with your provided session credentials:
 
@@ -25,6 +25,8 @@ As you your user for this workshop is subaccount administrator you can see all t
 
 In the left hand menu, click  on the menu item "Users". Find your user in the list and select it. You can use the "Search" functionality on the top to do so. Then, select the row with your user. A slide-in on the right hand-side will show all the Role Collections which have been assigned to your user.
 
+The applications we developed in Part 1 are automatically protected by some access controls. So at the moment nobody, not even our subaccount administrator can access them. Let's change that.
+
 Click on "Assign Role Collection" right besides the search bar on the right to add a new role collection:
 
 ![](/exercises/exPrep/images/Prep_03.png)
@@ -33,7 +35,7 @@ Now, use the search field to find your username, e.g. TechEdLCAP0XX, where XX is
 
 ![](/exercises/exPrep/images/Prep_04.png)
 
-The Role and Role Collection have been defined by yourself (without your knowledge though) by using the Low-Code Perspective. You can change it any time later on, but we will not cover this in this session.
+The Role and Role Collection have been defined by yourself (without your knowledge though) by using the Low-Code Perspective. You can change it any time later on, but we will not cover this in this session. The assigned Role Collection allows your user to access the deployed services. 
 
 Next we will test our deployed apps.
 
@@ -41,9 +43,7 @@ Next we will test our deployed apps.
 
 In the left-hand menu click on "HTML5 Application" to see a list of deployed web-apps in this subaccount.
 
-Again, type your username in the searchbar and perform a search. For subaccounts with many traffic it is most convenitent to use the search, the lists can grow too quickly. 
-
-The applications we developed in Part 1 are automatically protected by some access controls. So at the moment nobody, not even our subaccount administrator can access them. Let's change that.
+Again, type your username in the searchbar and perform a search. For subaccounts with much traffic it is most convenitent to use the search, the lists can grow too quickly. 
 
 ![](/exercises/exPrep/images/Prep_05.png)
 
@@ -89,9 +89,9 @@ Once you have noted down the URL, click it to open our service:
 
 ![](/exercises/exPrep/images/Prep_10.png)
 
-This should be familiar with you - we have seen this using our preview feature in the AppStudio. Please not that there are no Web Applications right now as they have been deployed to the HTML5 repository separately.
+This should be familiar to you - we have seen this using our preview feature in the AppStudio. Please note that there are no Web Applications right now as they have been deployed to the HTML5 repository separately.
 
-You can click on any service to test it out if you like. Please not that this time, the data you see is actually stored in the SAP HANA database running in the context of our subaccount. So all data changes will persist.
+You can click on any service to test it out if you like. Please note that this time, the data you see is actually stored in the SAP HANA database running in the context of our subaccount. So all data changes will be persisted.
 
 This conludes the validation and preparation phase.
 
