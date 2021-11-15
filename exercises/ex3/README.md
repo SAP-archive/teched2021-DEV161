@@ -37,7 +37,7 @@ Now all sample data has been provided and we will test drive our service now for
 
 On the "Home" screen you find a "Preview" button in the upper right corner. Confidently, click it.
 
-After a couple of seconds, you should see a toast alert in the lower right hand corner, which indicates that your app is now running in a new window.  
+After a couple of seconds you should see a toast alert in the lower right hand corner, which indicates that your app is now running in a new window.  
 It can be that your browser will not open another tab, so please allow *.ondemand.com to open new tabs.
 Alternatively, you can CMD-click or CTRL-click on the green link in the Task: Preview window on the bottom.
 
@@ -45,15 +45,15 @@ Switch to the new browser tab to see your current app in preview mode.
 
 ![](/exercises/ex3/images/Sample_02.png)  
 
-From here you can navigate to the various deployment artifacts of your project. You can nav to the, currently empty, launchpad, to the $metadata resource of your API and do the three services we created and populated already with sample data.
+From here you can navigate to the various artifacts of your project. You can nav to the - currently empty - launchpad, to the $metadata resource of your API and check out the three services we created and populated already with sample data.
 
 Click on the "HeroService" link to open the API which provides the list of heroes in your database.
 
-Please note that this services is run from an in-memory database, so any modification to the data will not persist.
+Please note that this service is run from an in-memory database, so any modification to the data will not persisted.
 
-We will later come back to this page once we add our user experience a.k.a apps.
+We will later come back to this page once we have added our user experience a.k.a apps.
 
-Please leave this browser tab open. Whenever we change some of the data model, services, sample data or UX this tab will automatically refresh so we can immediately come back to see the impact of our changes.
+Please leave this browser tab open. Whenever we apply a change to the data model, services, sample data or UX this tab will automatically refresh so we can immediately come back to see the impact of our changes.
 
 ## Summary
 We have seen our service for the first time in action after we have added some sample data. Next we will add some apps.

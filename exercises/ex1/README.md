@@ -36,7 +36,7 @@ We will first create our persistence by adding a model to our project. Click on 
 Use the dialog to create our first entity as follows:
 ![](/exercises/ex1/images/LCAP_02.png)
 Our first entity will have five properties to store a list of our heroes we want to rent out to our customers.
-Please also not that we use all String datatypes except for the key, which is a generated UUID.
+Please also note that we use all String datatypes except for the key, which is a generated UUID.
 
 Confirm your model by clicking "Create".
 
@@ -65,7 +65,7 @@ Our data model is now complete an should look like this:
 
 ## Summary
 
-You've now create a data model including persistence in CAP (Cloud Application Programming model) that can be later used to be deployed to the SAP HANA database we will use. Note that you have not seen any CAP related commands or syntax.
+You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be later used to be deployed to the SAP HANA database we will use. Note that you have not seen any CAP related commands or syntax.
 
 Continue to - [Exercise 2](../ex2/README.md)
 
