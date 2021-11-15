@@ -1,5 +1,5 @@
 # Exercise B - Create a Data Source
-In this exercise we will connect our app to the CAP-based service we depolyed in Part 1.
+In this exercise we will connect our AppGyver app to the CAP-based service we depolyed in Part 1.
 
 ## Excercise B.1 Add a Data Resource to our Application
 
@@ -7,9 +7,9 @@ In AppGyver, select the "DATA" tab in the top navigation bar.
 
 Click on the "ADD DATA RESOURCE" sign on the right-hand side.
 
-In the dialog select "OData integration". CAP,per default, exposes OData V4 compliant services and AppGyver, per default, includes ODta V4 complient service - a perfect fit.
+In the dialog select "OData integration". CAP by default exposes OData V4 compliant services and AppGyver by default consumes OData V4 compliant services - a perfect fit.
 
-Copy the URL of our CAP Service and append "/consumer"
+Copy the URL of our CAP Service and append "/consumer" (The URL you should have noted down [here](../exPrep#find-our-odata-service))
 
 here's an example (please replace and insert your user number)
 ```URL
