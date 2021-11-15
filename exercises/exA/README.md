@@ -31,6 +31,6 @@ At the bottom you will find the intergrated support experience (the violett bar 
 
 
 ## Summary
-We now have an overview of the AppGyver design time
+We now have an overview of the AppGyver design time.
 
-Continue to - [Exercise 6](../ex6/README.md)
+Continue to - [Exercise B](../exB/README.md)
