@@ -89,6 +89,6 @@ Click "SAVE" to persist your changes.
 This concludes this exercise.
 
 ## Summary
-We have connected our app to our CAP API and tested it succesfully. We also checkk the data retrieval logic.
+We have connected our app to our CAP API and tested it succesfully. We also cchecked the data retrieval logic.
 
 Continue to - [Exercise C](../exC/README.md)
