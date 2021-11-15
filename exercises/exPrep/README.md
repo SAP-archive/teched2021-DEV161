@@ -6,7 +6,7 @@ Therefore, we will perform some administrative tasks in this chapter.
 
 ## Verify Deployment Amd Assign Authorizations
 
-Open a new browser tab andlogin to the following page with your provided session credentials:
+Open a new browser tab and login to the following page with your provided session credentials:
 
 ```URL
 https://cockpit.eu10.hana.ondemand.com/

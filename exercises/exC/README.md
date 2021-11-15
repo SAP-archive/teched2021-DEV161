@@ -372,6 +372,4 @@ On your mobile device, opene SAP AppGyver Preview, open the HeroRent0XX app and 
 
 ## Summary
 
-This concludes this exercise.
-
-Continue to - [Exercise E](../exE/README.md)
+This concludes this session.

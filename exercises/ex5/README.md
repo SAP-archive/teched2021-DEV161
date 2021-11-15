@@ -77,4 +77,4 @@ While we are waiting for the deplyoment to happen we will switch tools and start
 ## Summary
 This conclued this exercise and we have a complete application deployed, incl. a SAP HANA database, some web apps and some APIs. Not bad.
 
-Continue to - [Exercise 6](../ex6/README.md)
+Continue to - [Preparation](../exPrep/README.md)

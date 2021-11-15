@@ -33,4 +33,4 @@ At the bottom you will find the intergrated support experience (the violett bar 
 ## Summary
 This conclued this exercise and we have a complete application deployed, incl. a SAP HANA database, some web apps and some APIs. Not bad.
 
-Continue to - [Exercise 6](../ex6/README.md)
+Continue to - [Exercise B](../exB/README.md)
