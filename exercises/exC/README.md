@@ -3,7 +3,7 @@ In this unit we will create the user experience for our app and will run a previ
 
 ## Excercise C.1 Create the Hero Catalog Screen
 
-Navigate back to the "Empty page" main page view of AppGyver.
+Navigate back to the "Empty page" main page view of AppGyver, by toggling back to "view" from "variables" in the upper right corner.
 
 Cange the "Headline" to "Available Heroes" by selecting it and changing the property "Content" in the "PROPERTIES" tab on the right.
 
@@ -31,17 +31,15 @@ Select "Data and Variables"
 
 ![](/exercises/exC/images/UX_03.png)
 
-The next screen let's us choose from various variables of different scope an purposes. We choose "Data variables" as we retrieve or list of heroes from the API. You will also notice that many options are disabled, because they are not available in the current context. This is one of many examples where AppGyver supports you in avoiding mistakes.
-
-Select "Data variable".
+The next screen let's us choose from various variables of different scopes an purposes. Select "Data variables" as we want to retrieve our list of heroes from the API. You will also notice that many options are disabled, because they are not available in the current context. This is one of many examples where AppGyver supports you in avoiding mistakes.
 
 ![](/exercises/exC/images/UX_04.png)
 
 Since we only have one data variable, choose HeroCatalog1 and confirm by clicking "SAVE".
 
-You have now establishe a data binding between your control "List item 1" with the data variable "HeroCatalog1". AppGyver will make sure going forward that the list will always kept in sync with your data.
+You have now established a data binding between your control "List item 1" with the data variable "HeroCatalog1". Going forward AppGyver will make sure that the list will always be kept in sync with your data.
 
-But we also need to tell the control (List item 1), what properties of the Heroes should be displayed.
+Now we also need to tell the control (List item 1), what properties of the Heroes should be displayed.
 
 Click on the "ABC" button below the "Primary label" to open another dialog.
 
@@ -55,7 +53,7 @@ It should look like this:
 
 Confirm with a click on "SAVE".
 
-Now add a static text for the "Secondary label" as follows:
+Now add a static text for the "Secondary label" as follows (You can just paste it into the field next to the "ABC" button)
 ```
 Book now
 ```
@@ -66,13 +64,13 @@ Now it's time to test if your appication works so far.
 
 ## Excercise C.2 Preview Your Application
 
-On the top naviftion bar, click on "LAUNCH".
+On the top navigation bar, click on "LAUNCH".
 
 Here you can control the preview, distribution and release management of your app. Today we will concentrate on the "PREVIEW" part.
 
 As you can see, you can preview as webapp, mobile apps, macOS desktop app and even on Android TV.
 
-Click on "Revewal QR code".
+Click on "Reveal QR code".
 
 Now it's time to open the "SAP AppGyver Preview" app on your mobile device.
 
@@ -82,7 +80,7 @@ And touch on "SCAN QR CODE" button.
 
 After allowing the app to access your camera, you can can scan the previously revealed QR code.
 
-You will be automatically logged into your account and will see a list of all your active project in AppGyver.
+You will be automatically logged into your account and will see a list of all your active projects in AppGyver.
 
 Select the "HeroRent0XX" app by touching the "OPEN" button.
 
@@ -92,9 +90,9 @@ All your data entries should appear now. It should look like this:
 
 From now on you can leave this app open - all changes will appear here automatically, allowing you to quickly validate every change you make.
 
-Our quick check has discovered that the title page and the bottom navigation shows: "Empty page". So, let's fix this.
+Our quick check has discovered that the title of the page shows "Empty page". So, let's fix this.
 
-Back in AppGvyer, select the PAGE LAYOUT in the lower-right coponent tree view and set the "Page name" property to "Catalog" and the "Short description" to 
+Back in AppGvyer, close the "LAUNCH" perspective by pressing the "x" in the upper right corner, you should now be back on the page view. Now select the PAGE LAYOUT in the lower-right component tree view and set the "Page name" property to "Catalog" and the "Short description" to 
 ```
 Displays a list of available heroes
 ```
@@ -103,7 +101,7 @@ Confirm by clicking "SAVE" and save your project. After a few seconds your app o
 
 ## Excercise C.3 Adding the Order Page
 
-In order to add a new page, we click on the link labled "Catalog" in the upper right corner of AppGyver.
+In order to add a new page, we click on the link labled "Catalog" in the upper left corner of AppGyver.
 Here we see all our current pages and can add, or remove pages. Also we see here a "Global canvas". Here we could model non-UI related logic into the applicaton. 
 
 Click on the "ADD NEW PAGE" plus sign on the left. A dialog appears and asks you for a new page name. Provide the name "New Booking".
@@ -166,7 +164,7 @@ Save the changes by clicking "SAVE" button.
 
 ![](/exercises/exC/images/UX_09.png)
 
-Switch back to the page canvas by select "VIEW".
+Switch back to the page canvas by selecting "VIEW" in the upper right corner.
 
 ## Adding Formulas
 
@@ -180,11 +178,11 @@ In the next dialog click on the "Lorem ipsum.." text under "Formula" to select o
 
 ![](/exercises/exC/images/UX_10.png)
 
-On the top you see your current formula to edit. Underneth to the left, is a list with all available functions and on the right you see a preview pane and an area where errors and hints will be displayed.
+On the top you see your current formula to edit. Underneath to the left, is a list of all available functions and on the right you see a preview pane and an area where errors and hints will be displayed.
 
 For this formula we want to display the incoming page parameter of the selected hero and add some additional text by concatinating some literal text.
 
-Add the following formula into the formula field
+Add the following formula into the formula field (replace the original content)
 
 ```
 "Hero to book: " + params.HeroName
@@ -201,17 +199,17 @@ Confirm the dialog with "SAVE" to apply your formula.
 
 The list of components in the palette is not everything. For our mobile users to select a date and time for the booking we will add a DateTimePicker from the Component Market.
 
-Open the logic editor on bottom by clicking the grey area.
+Open the logic editor on the bottom by clicking the dark grey area.
 
-On the top-left, click on "COMPONENT MARKET" and search for "datetime" and select the "Pick datetime" box.
+On the top-left, click on "COMPONENT MARKET" and search for "datetime" under "frontend logic" and select the "Pick datetime" box.
 
 ![](/exercises/exC/images/UX_11.png)
 
 Click the "INSTALL" button to add this flow component to your project. AppGyver will now manage this dependency and notify you about updates that are being provided in the future.
 
-Make sure you have selected the "Select Date" button and the "INSTALLED" tab in the logic canvas.
+Make sure you have selected the "Select Date" button in your page view and the "INSTALLED" tab in the logic canvas.
 
-Now drag the "Pock datetime" flow function to the logic canvas.
+Now drag the "Pick datetime" flow function to the logic canvas.
 
 Drag a line from the flow "EVENT Component tap" to the Dialog flow.
 
@@ -224,7 +222,7 @@ It should look like this:
 
 By connecting the dots (literally) you implement the behavior of your app. Essentially, we just said that if "Select Date"-button has been tapped, open the Pick datetime dialog.
 
-The dialog needs some mandatory inputs as you can see on the right hand side, in the PROPERTIES pane. Le'ts provide these values.
+The dialog needs some mandatory inputs as you can see on the right hand side, in the PROPERTIES pane. Let's provide these values.
 
 Click on the "ABC" button under "Minimum date", click "Formula" and select the "" formular to provide a new one:
 
@@ -252,13 +250,14 @@ The full definition should look like this:
 
 ![](/exercises/exC/images/UX_13.png)
 
-Now, we want to store the selected value in our page variable. 
+Now we want to store the selected value in our page variable. 
 
-Select the "CORE" tab in logic palette and drag the "Set page variable" to the logic canvas. Select the new node and click on the box below "Variable name" on the right to assign our page variable "bookingDate" to it.
+Select the "CORE" tab in logic palette and drag the "Set page variable" to the logic canvas. Connect the "Pick datetime" and the "Set page variable" with a new line. Make sure you start the line from the upmost connector of "Pick datetiem".
+Select the new node and click on the box below "Variable name" on the right to assign our page variable "bookingDate" to it.
 
 Now click the "ABC" button under "Assigned value" to assign the value from the previous dialog to the bookingDate variable.
 
-In the dialog click "Formulas" and add the followin formula:
+In the dialog click "Formulas" and add the following formula:
 
 ```JAVASCRIPT
 outputs["Pick datetime"].pickedDatetime
@@ -276,7 +275,7 @@ Select the dropdown list in the UI canvas of the New Booking page.
 
 Add "Duration" as a label using the "Label text" property.
 
-Click the "Option list" property on the right. Use the dialog (use the "Add another value" link) to add three values and labels for each. It looks like this:
+Click the "Option list" property on the right. Use the dialog (use the "Add another value" link) to add three values and labels for each (like "1 day" and 1, "2 days" and 2, ...).). It looks like this:
 
 ![](/exercises/exC/images/UX_15.png)
 
@@ -374,4 +373,3 @@ On your mobile device, opene SAP AppGyver Preview, open the HeroRent0XX app and 
 
 This concludes this exercise.
 
-Continue to - [Exercise E](../exE/README.md)
