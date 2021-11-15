@@ -36,7 +36,7 @@ The exercises are divided into two parts. In part one we use the new Low-Code pe
 - [Exercise A - Create a new AppGyver Project](exercises/exA/README.md)
 - [Exercise B - Create a Data Source](exercises/exB/README.md)
 - [Exercise C - Create the Pages/UX](exercises/exC/README.md)
-- [Exercise E - Further Improvements](exercises/exE/README.md)
+
 
 Start the exercises [here](exercises/ex0/README.md).
 
