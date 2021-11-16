@@ -289,7 +289,7 @@ Save your changes.
 
 Two buttons to go. Select the left button and label it "Cancel". Also change the style to a light grey by using the "Style"-property page. (Hint: Background color).
 
-Now, while the cancel button is still selected, drag the logic flow "Naviagate back" from the palette to the logic canvas.
+Now, while the cancel button is still selected, drag the logic flow "Naviagate back" from the palette to the logic canvas and connect it to the "Component tap" node.
 
 Double check your result:
 
