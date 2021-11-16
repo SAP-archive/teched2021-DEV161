@@ -333,14 +333,14 @@ Save and close the dialog.
 
 Save the changes on this page.
 
-After creation of the record, we want to navigate the user back to the Catalog page, so drag the "Navigate back" node to the logic canvas and connec the first output node from "Create record" to our navigation.
+After creation of the record, we want to navigate the user back to the Catalog page, so drag the "Navigate back" node to the logic canvas and connect the first output node from "Create record" to our navigation.
 
 In case there is an issue with the order, let's notify the user. Drag the "Alert" node to the logic canvas and connect the error output node from "Create record" to the dialog. 
 
-Alsoo provide an error message to the "Dialog title" property.
+Also provide an error message to the "Dialog title" property.
 BONUS: Select the output of the previous node to see the actual error message.
 
-The overall flow should lokk similar to this:
+The overall flow should look similar to this:
 
 ![](/exercises/exC/images/UX_19.png)
 
