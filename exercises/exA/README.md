@@ -18,9 +18,9 @@ After a few seconds AppGyver will appear and present you the design time for you
 
 ![](/exercises/exA/images/Hero_02.png)
 
-1. This is the palete, where you find the UX controls that you can drag&drop into your page canvas
+1. This is the palette, where you find the UX controls that you can drag&drop into your page canvas
 2. This is the top navigation bar, where you can find the various other editor views/topics such as DATA, which handles connectivity
-3. Here you can see the properties of the select item in the page canvas and below you see a hirarchy view of the UX components that you have put already onto your page.
+3. Here you can see the properties of the selected item on the page canvas and below you see a hirarchy view of the UX components that you have put already onto your page.
 4. Here you can switch between the "Variable" view and the page canvas which we see right now.
 5. Page canvas, where you design your views.
 
@@ -31,6 +31,6 @@ At the bottom you will find the intergrated support experience (the violett bar 
 
 
 ## Summary
-This conclued this exercise and we have a complete application deployed, incl. a SAP HANA database, some web apps and some APIs. Not bad.
+We now have an overview of the AppGyver design time.
 
 Continue to - [Exercise B](../exB/README.md)
