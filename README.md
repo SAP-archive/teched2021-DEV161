@@ -16,6 +16,7 @@ For this we need to provide a way to store our business data: available heroes t
 
 Local requirement is to preferably use the Google Chrome browser to access the SAP Business Application Studio and SAP AppGyver. You will get dedicated users for login to the development environment during the course.
 Other than a modern browser, there is no local installation needed.
+Please use the incognito mode of your browser as we will distribute SAP Universal ID login credentials for you to use during the session and they might conflict with existing logins of your SAP ID user you have already in use.
 
 Note: After TechEd 2021, users can use the content in this repo on their productive SAP BTP environment. 
 
