@@ -1,4 +1,4 @@
-# DEV161- Develop Applications from Start to Finish Through LCNC and SAP AppGyver
+# DEV161 - Develop Applications from Start to Finish Through LCNC and SAP AppGyver
 
 ## Description
 
