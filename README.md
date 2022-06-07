@@ -1,5 +1,7 @@
 # DEV161 - Develop Applications from Start to Finish Through LCNC and SAP AppGyver
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2021-DEV161)](https://api.reuse.software/info/github.com/SAP-samples/teched2021-DEV161)
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2021 session DEV161 - Develop Applications from Start to Finish Through LCNC and SAP AppGyver and is provided as-is.
