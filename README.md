@@ -1,6 +1,8 @@
 # DEV161 - Develop Applications from Start to Finish Through LCNC and SAP AppGyver
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2021-DEV161)](https://api.reuse.software/info/github.com/SAP-samples/teched2021-DEV161)
+[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
 
 ## Description
 
